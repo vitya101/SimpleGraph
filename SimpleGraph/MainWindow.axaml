@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="SimpleGraph.MainWindow"
+        Title="SimpleGraph">
+
+	<Window.Styles>
+		<StyleInclude Source="/AppStyles.axaml" />
+	</Window.Styles>
+
+	<Grid RowDefinitions="Auto, *">
+		<StackPanel Classes="Header">
+			<TextBox x:Name="TicketName" Watermark="Ticket name" />
+			<TextBox x:Name="TicketCount" Watermark="Ticket count" />
+			<Button x:Name="ConnectBtn" Click="Connect" Content="Connect"/>
+		</StackPanel>
+		<StackPanel Classes="Graph">
+			<TextBox x:Name="Log" />
+		</StackPanel>
+	</Grid>
+
+</Window>

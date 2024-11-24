@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="SimpleGraph/App.axaml" value="SimpleGraph/SimpleGraph.csproj" />
+        <entry key="SimpleGraph/AppStyles.axaml" value="SimpleGraph/SimpleGraph.csproj" />
+        <entry key="SimpleGraph/MainWindow.axaml" value="SimpleGraph/SimpleGraph.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

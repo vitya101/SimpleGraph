@@ -1,0 +1,46 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Design.PreviewWith>
+		<Border Padding="20">
+			<!-- Add Controls for Previewer Here -->
+		</Border>
+	</Design.PreviewWith>
+
+	<Style Selector="Window">
+		<Setter Property="Padding" Value="20" />
+	</Style>
+	
+	<Style Selector="Grid > StackPanel">
+		<Setter Property="Margin" Value="20" />
+	</Style>
+	
+	<Style Selector="StackPanel.Header">
+		<Setter Property="Orientation" Value="Horizontal" />
+		<Setter Property="Spacing" Value="15" />
+		<Setter Property="Grid.Row" Value="0" />
+	</Style>
+	
+	<Style Selector="StackPanel.Header > TextBox">
+		<Setter Property="Width" Value="150" />
+	</Style>
+	
+	<Style Selector="StackPanel.Header > Button">
+		<Setter Property="Background" Value="#D500A11B"/>
+	</Style>
+	
+	<Style Selector="StackPanel.Header > Button:disabled">
+		<Setter Property="Background" Value="#78FF0000"/>
+	</Style>
+	
+	<Style Selector="StackPanel.Graph">
+		<Setter Property="Grid.Row" Value="1" />
+	</Style>
+	
+	<Style Selector="StackPanel.Graph > TextBox">
+		<Setter Property="TextWrapping" Value="Wrap" />
+		<Setter Property="AcceptsReturn" Value="True" />
+		<Setter Property="HorizontalAlignment" Value="Stretch" />
+		<Setter Property="Height" Value="400" />
+	</Style>
+	
+</Styles>
