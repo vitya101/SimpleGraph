@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GV7xLfvA3AM=",
+  "dgSpecHash": "x2NGlTnwVQQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\0_0\\RiderProjects\\SimpleGraph\\SimpleGraph\\SimpleGraph.csproj",
   "expectedPackageFiles": [
@@ -25,8 +25,12 @@
     "C:\\Users\\0_0\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0.2\\harfbuzzsharp.nativeassets.macos.7.3.0.2.nupkg.sha512",
     "C:\\Users\\0_0\\.nuget\\packages\\harfbuzzsharp.nativeassets.webassembly\\7.3.0.3-preview.2.2\\harfbuzzsharp.nativeassets.webassembly.7.3.0.3-preview.2.2.nupkg.sha512",
     "C:\\Users\\0_0\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\7.3.0.2\\harfbuzzsharp.nativeassets.win32.7.3.0.2.nupkg.sha512",
+    "C:\\Users\\0_0\\.nuget\\packages\\livechartscore\\2.0.0-rc4.5\\livechartscore.2.0.0-rc4.5.nupkg.sha512",
+    "C:\\Users\\0_0\\.nuget\\packages\\livechartscore.skiasharpview\\2.0.0-rc4.5\\livechartscore.skiasharpview.2.0.0-rc4.5.nupkg.sha512",
+    "C:\\Users\\0_0\\.nuget\\packages\\livechartscore.skiasharpview.avalonia\\2.0.0-rc4.5\\livechartscore.skiasharpview.avalonia.2.0.0-rc4.5.nupkg.sha512",
     "C:\\Users\\0_0\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
     "C:\\Users\\0_0\\.nuget\\packages\\skiasharp\\2.88.8\\skiasharp.2.88.8.nupkg.sha512",
+    "C:\\Users\\0_0\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.8\\skiasharp.harfbuzz.2.88.8.nupkg.sha512",
     "C:\\Users\\0_0\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.8\\skiasharp.nativeassets.linux.2.88.8.nupkg.sha512",
     "C:\\Users\\0_0\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.8\\skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",
     "C:\\Users\\0_0\\.nuget\\packages\\skiasharp.nativeassets.webassembly\\2.88.8\\skiasharp.nativeassets.webassembly.2.88.8.nupkg.sha512",

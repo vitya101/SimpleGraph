@@ -64,3 +64,8 @@ C:\Users\0_0\RiderProjects\SimpleGraph\SimpleGraph\obj\Debug\net9.0\refint\Avalo
 C:\Users\0_0\RiderProjects\SimpleGraph\SimpleGraph\obj\Debug\net9.0\SimpleGr.1954F57D.Up2Date
 C:\Users\0_0\RiderProjects\SimpleGraph\SimpleGraph\obj\Debug\net9.0\SimpleGraph.genruntimeconfig.cache
 C:\Users\0_0\RiderProjects\SimpleGraph\SimpleGraph\obj\Debug\net9.0\ref\SimpleGraph.dll
+C:\Users\0_0\RiderProjects\SimpleGraph\SimpleGraph\obj\Debug\net9.0\SimpleGraph.sourcelink.json
+C:\Users\0_0\RiderProjects\SimpleGraph\SimpleGraph\bin\Debug\net9.0\LiveChartsCore.dll
+C:\Users\0_0\RiderProjects\SimpleGraph\SimpleGraph\bin\Debug\net9.0\LiveChartsCore.SkiaSharpView.dll
+C:\Users\0_0\RiderProjects\SimpleGraph\SimpleGraph\bin\Debug\net9.0\LiveChartsCore.SkiaSharpView.Avalonia.dll
+C:\Users\0_0\RiderProjects\SimpleGraph\SimpleGraph\bin\Debug\net9.0\SkiaSharp.HarfBuzz.dll
