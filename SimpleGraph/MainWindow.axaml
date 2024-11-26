@@ -20,8 +20,8 @@
 	
 	<Grid RowDefinitions="Auto, *">
 		<StackPanel Classes="Header">
-			<TextBox x:Name="TicketName" Watermark="Ticket name" Text="BNBUSDT"/>
-			<TextBox x:Name="TicketCount" Watermark="Ticket count" Text="250"/>
+			<TextBox x:Name="TicketName" Watermark="Ticket name"/>
+			<TextBox x:Name="TicketCount" Watermark="Ticket count"/>
 			<Button x:Name="ConnectBtn" Click="Connect" Content="Connect"/>
 		</StackPanel>
 		<StackPanel Classes="Graph">
