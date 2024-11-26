@@ -20,17 +20,19 @@
 	
 	<Grid RowDefinitions="Auto, *">
 		<StackPanel Classes="Header">
-			<TextBox x:Name="TicketName" Watermark="Ticket name" Text="BNBBTC"/>
-			<TextBox x:Name="TicketCount" Watermark="Ticket count" Text="5"/>
+			<TextBox x:Name="TicketName" Watermark="Ticket name" Text="BNBUSDT"/>
+			<TextBox x:Name="TicketCount" Watermark="Ticket count" Text="250"/>
 			<Button x:Name="ConnectBtn" Click="Connect" Content="Connect"/>
 		</StackPanel>
 		<StackPanel Classes="Graph">
 			<lvc:CartesianChart 
+				x:Name="Chart"
+				SyncContext="{Binding Sync}"
 				Series="{Binding Series}"
 			    Title="{Binding Title}"
-				HorizontalAlignment="Stretch"
-				Height="400"
-				IsVisible="False"/>
+				XAxes="{Binding XAxes}"
+				/>
+			<!-- YAxes="{Binding YAxes}" -->
 		</StackPanel>
 	</Grid>
 
