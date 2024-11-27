@@ -29,7 +29,7 @@
 		<Setter Property="Background" Value="#D500A11B"/>
 	</Style>
 	
-	<Style Selector="StackPanel.Header > Button:disabled">
+	<Style Selector="StackPanel.Header > Button.isConnected">
 		<Setter Property="Background" Value="#78FF0000"/>
 	</Style>
 	

@@ -46,6 +46,8 @@ namespace SimpleGraph;
                 button.Click -= Connect;
                 button.Click += Disconnect;
                 
+                button.Classes.Add("isConnected");
+                
                 _cancellationTokenSource = new CancellationTokenSource();
                 await GetData(_cancellationTokenSource.Token, client, ticketName, Convert.ToInt32(ticketCount));
             
@@ -131,8 +133,11 @@ namespace SimpleGraph;
             _cancellationTokenSource?.Dispose();
             _cancellationTokenSource = null;
 
+            button.Content = "Connect";
             button.Click -= Disconnect;
             button.Click += Connect;
+
+            button.Classes.Clear();
 
             Console.WriteLine("Disconnect");
 
